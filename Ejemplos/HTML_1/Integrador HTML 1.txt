@@ -1,0 +1,13 @@
+¿Qué es y qué hace un Desarrollador web? Guía completa
+Aprende que es un desarrollador web, descubre las habilidades de desarrollo web fron-end, back-end y full-stack de un desarrollador web en esta guia,
+Lunes 9 de agosto de 2021
+Desde sus comienzos a principios del siglo XX, el internet ha crecido de manera exponencial. En el mundo moderno, la mayoría cuenta con acceso a internet de alguna manera y un gran porcentaje de personas utilizan el internet a diario. El desarrollo web se ha vuelto rápidamente una de las elecciones de carrera más atractivas y mejor pagadas del mundo moderno. Pero, ¿qué es un desarrollador web y qué hace exactamente?
+Probablemente has pensado aprender uno o dos lenguajes de programación para convertirte en un desarrollador web. Por suerte, nosotros entendemos que quienes aspiran a convertirse en desarrolladores web tienen preguntas sobre la profesión y por eso hemos creado esta guía completa, que pretende responder las preguntas anteriores y más.
+Analizaremos los tipos de desarrolladores web y examinaremos el debate de diseño web vs. desarrollo web. También hablaremos sobre algunos de los lenguajes de programación más populares para desarrolladores web, incluyendo Python, JavaScript y HTML.
+Lenguajes populares para el desarrollo web Front-End
+HTML
+CSS
+JavaScript
+
+Autor: Nombre y Apellido del alumno
+Fuente: https://es.bitdegree.org/tutoriales/desarrollador-web/
