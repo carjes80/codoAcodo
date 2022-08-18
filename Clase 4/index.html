@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML, CSS and JavaScript demo</title>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<title>Formulario en HTML</title>
+
+<body>
+    <!-- Start your code here -->
+    <h1>Formularios</h1>
+    <p>Aqui empieza el formulario, con la etiqueta "form" y principalmente el atributo "action" se usa para definir la función del formulario al final, investigar</p>
+    <p><b>label</b> es la etiqueta que se va a mostrar en el formulario, tiene el atributo "for" se usa para indicar el identificador del campo, estará asociado con el input en este caso es un texto o string </p>
+    <p><b>input</b> Crea el campo para rellenar la consulta, tiene los parámetros "type" para el tipo de entrada, "id" para identificar el campo y linkear a css y "name" es cómo se asociará con la Base de Datos. Tambien hay "size", "maxlength", "required", "value" y otros más. Revisar la info del curso.</p>
+    <p><b>fieldset</b> se usa para crear un cuadro y todo lo que se escriba aparecerá adentro. Tiene una etiqueta "legend" que se usa para poner el "titulo" del contenedor</p>
+    <p><b>select</b> se usa para crear una lista desplegable, con la etiqueta "Option" te permite crear las listas</p>
+    <p><b>radio buttons</b> Se usa para tener varios checkbox relacionados y que solo se pueda seleccionar 1. Se define de igual manera que los Checkbox</p>
+  <p>El resumen se seguirá alimentando....</p>
+
+    <h2>Formulario de consultas</h2>
+
+
+    <form action="">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" size="13" maxlength="25" required value="ingrese nombre" />
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" size="13" />
+
+            <label for="dni">DNI:</label>
+            <input type="number" id="dni" name="dni" />
+            <br />
+            <label for="nro_tramite">Nro de Trámite DNI:</label>
+            <input type="password" />
+            <br />
+            <label for="fecnac">Fecha de Nacimiento:</label>
+            <input type="date" />
+            <br />
+            <label for="correo">E-Mail:</label>
+            <input type="email" />
+            <br />
+            <label for="adjunto">Adjuntar foto:</label>
+            <input type="file" />
+            <br />
+            <label for="colorfav">Color Favorito</label>
+            <input type="color" />
+
+            <label for="hijos">Cantidad de Hijos (0 a 10)</label>
+            <input type="number" min="0" max="10" />
+
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend>Datos de la inscripción</legend>
+            <label for="turno">Seleccione el turno de su preferencia:</label>
+            <select name="turno" id="turno" size="1">
+                <option value="1">Mañana</option>
+                <option value="2">Tarde</option>
+                <option value="3">Noche</option>
+                <option value="4">Media noche</option>
+            </select>
+            <br />
+            <label for="op">Conocimientos previos</label>
+            <input type="checkbox" name="op" value="1"> HTML
+            <input type="checkbox" name="op" value="2"> CSS
+            <input type="checkbox" name="op" value="3"> JS
+            <br /><br />
+            <label for="rb">Estoy interesado en:</label>
+            <input type="radio" name="rb" value="1" /> Python
+            <input type="radio" name="rb" value="2" /> Java
+            <input type="radio" name="rb" value="3" /> PHP
+            <input type="radio" name="rb" value="4" /> C#
+            <br />
+
+        </fieldset>
+        <br /><br />
+        <label for="comentarios">Escriba su comentario:</label>
+        <textarea name="comentarios" id="comentarios" cols="30" rows="3" placeholder="Texto predefinido para mostrar..."></textarea>
+        <br />
+        <input type="submit" value="Enviar datos" />
+        <input type="reset" value="borrar" />
+    </form>
+
+    <!-- End your code here -->
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
