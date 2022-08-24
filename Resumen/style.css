@@ -1,0 +1,20 @@
+*{
+    background-color: rgb(237, 239, 232);
+    font-family: verdana;
+}
+h1{ 
+    text-align: center;
+    text-decoration:;
+}
+h2{
+    padding: 20px;
+    background-color: rgb(243, 251, 225);
+    color: rgb(101, 12, 12);
+    
+}
+
+    #activar1:checked ~ .desplegable1 {text-decoration:line-through;}
+    #activar2:checked ~ .desplegable2 {text-decoration:line-through;}
+    #activar3:checked ~ .desplegable3 {text-decoration:line-through;}
+    #activar4:checked ~ .desplegable4 {text-decoration:line-through;}
+    
