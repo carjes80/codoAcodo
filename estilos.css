@@ -1,28 +1,18 @@
-p{
-    color:blueviolet;
-    background-color: lavender;
-    padding: 20px
+*{
+    background-color: rgb(237, 239, 232);
+    font-family: verdana;
+     text-align: center;
 }
-body{
-    background-color: black;
-    /*font-size:50px*/
-}
-h1{
-    color: rgb(0, 0, 0);
-    background-color: rgb(119, 111, 22);
+h1{ 
     text-align: center;
-    font-size: 25px;
-    padding:20px;
-}
-h2{
-    color: rgb(119, 111, 22);
-    align-content: center;
-    text-align: center;
-    text
-background: gray;
-    font-size: 75px;
-    padding:20px;
 
 }
+h2{
+    padding: 20px;
+    background-color: rgb(243, 251, 225);
+    color: rgb(101, 12, 12);
+    
+}
+
 /* los comntarios van con barra y asterisco y asterisco barra */
 
