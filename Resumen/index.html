@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <div id="contenido">
     <!-- Inicio del resumen -->
     <a name="arriba"></a>
     <h1>Resumen del Curso</h1>
@@ -39,9 +40,9 @@
 
     <h4>Conceptos básicos de HTML</h4>
 
-    <img src="/Resumen/img/Clase1.JPG" alt="sumario de clase 1">
+    <img class=centrado src="/Resumen/img/Clase1.JPG" alt="sumario de clase 1">
 
-    <fieldset>
+    <fieldset id="ajustar">
         <legend>Ejemplo de cómo crear el código en HTML</legend>
         <dl>
             <font color="red">&lt;!DOCTYPE html&gt;
@@ -131,7 +132,7 @@
 
     <!-- Listas -->
 
-    <fieldset>
+    <fieldset id="ajustar">
         <legend>Ejemplo de listas</legend>
         <font color="red">
             <dl>
@@ -196,10 +197,10 @@
 
     <!-- Enlaces  -->
 
-    <fieldset>
+    <fieldset id="ajustar">
         <legend>Ejemplos de Enlaces</legend>
-        <pre>&lt;<font color="red">a</font><font color="orange"> href</font>=<font color="darkgreen">"url (página web, imagen, archivo, lugar de la página)"</font>>Texto que va a aparecer en el enlace&lt;<font color="red">/a</font>>
-        </pre>
+        &lt;<font color="red">a</font><font color="orange"> href</font>=<font color="darkgreen">"url (página web, imagen, archivo, lugar de la página)"</font>>Texto que va a aparecer en el enlace&lt;<font color="red">/a</font>>
+       
         <br>
         <p>Enlaces en la misma pagina:</p>
         &lt;<font color="red">a</font>
@@ -264,9 +265,9 @@
 
     <!-- Multimedia y tablas -->
     <h4>Multimedia</h4>
-    <fieldset>
+    <fieldset id="ajustar">
         <legend>Ejemplo de img e iframe</legend>
-        &lt;<font color="red">img</font>
+        <p>&lt;<font color="red">img</font>
         <font color="orange">src</font>
         =<font color="green">"Aqui va la URL, dirección de carpeta y archivo, etc..."</font>
         <font color="orange">height</font>=<font color="green">"numero en pixeles"</font>
@@ -275,13 +276,14 @@
         &lt;<font color="red">iframe</font>
         <font color="orange">width</font>=<font color="green">"560"</font>
         <font color="orange">height</font>=<font color="green">"315"</font>
-        <font color="orange">src</font>=<font color="green">"https://www.youtube.com/embed/EQg2NYQ5usg?start=14"</font>
+        <font color="orange">src</font>=<font color="green">
+        "url del video"</font>
         >Video de youtube&lt;<font color="red">/iframe</font>>
         <br><br>
         &lt;<font color="red">link</font>
         <font color="orange">rel</font>="<font color="green">icon</font>" <font color="orange">type</font>="<font
             color="green">image/vnd.microsoft.icon</font>" <font color="orange">href</font>=<font color="green">
-            "/Resumen/img/favicon-16x16.png"</font>>
+            "/Resumen/img/favicon-16x16.png"</font></p>
 
     </fieldset>
 
@@ -297,7 +299,7 @@
         la tabla de ejemplo/p>
 
     <h4>Tablas</h4>
-    <fieldset>
+    <fieldset id="ajustar">
         <legend>Ejemplo de tablas</legend>
         <pre>
         &lt;table>
@@ -440,7 +442,7 @@
             la Clase 6</iframe></div>
     <!-- Este es el final de la pagina -->
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+</div>
 </body>
 <footer>
     <a href="#arriba">inicio</a>
