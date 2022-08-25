@@ -1,6 +1,7 @@
 * {
     background-color: rgb(237, 239, 232);
     font-family: verdana;
+
 }
 
 img {
@@ -26,11 +27,6 @@ h1 {
 }
 
 
-h2 {
-   /* color: rgb(101, 12, 12);*/
-}
-
-
 iframe {
 
     background-color: white;
@@ -38,6 +34,9 @@ iframe {
     max-height:100%;
     max-width: 100%;
 }
+.centrado{
+    text-align: center;
+  }
 
 #activar1:checked~.desplegable1 {
     text-decoration: line-through;
