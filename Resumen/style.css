@@ -24,12 +24,6 @@ h1 {
     color: rgb(101, 12, 12);
 
 }
-fieldset{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    max-height: 420px;
-}
 
 
 h2 {
