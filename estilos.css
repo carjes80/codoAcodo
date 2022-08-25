@@ -1,0 +1,28 @@
+p{
+    color:blueviolet;
+    background-color: lavender;
+    padding: 20px
+}
+body{
+    background-color: black;
+    /*font-size:50px*/
+}
+h1{
+    color: rgb(0, 0, 0);
+    background-color: rgb(119, 111, 22);
+    text-align: center;
+    font-size: 25px;
+    padding:20px;
+}
+h2{
+    color: rgb(119, 111, 22);
+    align-content: center;
+    text-align: center;
+    text
+background: gray;
+    font-size: 75px;
+    padding:20px;
+
+}
+/* los comntarios van con barra y asterisco y asterisco barra */
+

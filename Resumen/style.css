@@ -4,7 +4,7 @@
 }
 h1{ 
     text-align: center;
-    text-decoration:;
+
 }
 h2{
     padding: 20px;
@@ -13,6 +13,11 @@ h2{
     
 }
 
+
+iframe{
+    
+    background-color:white;
+}
     #activar1:checked ~ .desplegable1 {text-decoration:line-through;}
     #activar2:checked ~ .desplegable2 {text-decoration:line-through;}
     #activar3:checked ~ .desplegable3 {text-decoration:line-through;}
