@@ -56,3 +56,6 @@ iframe {
 #activar5:checked~.desplegable5 {
     text-decoration: line-through;
 }
+#activar6:checked~.desplegable6 {
+    text-decoration: line-through;
+}
