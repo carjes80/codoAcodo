@@ -5,7 +5,7 @@
 
 #contenido { margin: 15px; }
 
-#ajustar {width: 320px}
+#ajustar {width:inherit}
 img {
     height: 100%;
     width: 100%;
