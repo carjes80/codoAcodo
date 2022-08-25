@@ -1,25 +1,65 @@
-*{
+* {
     background-color: rgb(237, 239, 232);
     font-family: verdana;
 }
-h1{ 
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    max-height: 420px;
+   }
+
+.fuente-vm2 {
+    font-size: 2vw;
+}
+
+.img-vm1 {
+    width: 35px;
+}
+
+h1 {
+
     text-align: center;
-
-}
-h2{
-    padding: 20px;
-    background-color: rgb(243, 251, 225);
     color: rgb(101, 12, 12);
-    
+
+}
+fieldset{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    max-height: 420px;
 }
 
 
-iframe{
-    
-    background-color:white;
+h2 {
+   /* color: rgb(101, 12, 12);*/
 }
-    #activar1:checked ~ .desplegable1 {text-decoration:line-through;}
-    #activar2:checked ~ .desplegable2 {text-decoration:line-through;}
-    #activar3:checked ~ .desplegable3 {text-decoration:line-through;}
-    #activar4:checked ~ .desplegable4 {text-decoration:line-through;}
-    
+
+
+iframe {
+
+    background-color: white;
+    object-fit: contain;
+    max-height:100%;
+    max-width: 100%;
+}
+
+#activar1:checked~.desplegable1 {
+    text-decoration: line-through;
+}
+
+#activar2:checked~.desplegable2 {
+    text-decoration: line-through;
+}
+
+#activar3:checked~.desplegable3 {
+    text-decoration: line-through;
+}
+
+#activar4:checked~.desplegable4 {
+    text-decoration: line-through;
+}
+#activar5:checked~.desplegable5 {
+    text-decoration: line-through;
+}

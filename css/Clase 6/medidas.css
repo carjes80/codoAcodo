@@ -1,5 +1,6 @@
 body{
     font-family: verdana;
+    font-size: 16px;
 }
 h1{
     color:blue;
@@ -9,5 +10,22 @@ h2{color:green;}
 .grande-px{font-size:24px}
 .chico-px{font-size:8px}
 
-/*  Medidas Relativas */
-/*
+/*  Medidas Relativas (em) */
+.fuente-em1{font-size: 2.5em;} /*40*/
+.fuente-em2{font-size: 1.875em;}/*30*/
+.fuente-em3{font-size: 0.875em;}/*14*/
+
+/*  Medidas Relativas (em) */
+.fuente-rem1{font-size: 2.5rem;} /*2.5 veces el tamaño base*/
+.fuente-rem2{font-size: 2rem;}/* */
+.fuente-rem3{font-size: 0.75rem;}/* */
+
+/*Medidas Relativas (%)*/
+.fuente-porc1{font-size: 100%;}/* */
+.fuente-porc2{font-size: 200%;}/* */
+.fuente-porc3{font-size: 75%;}/* */
+
+/*Medidas flexibles*/
+.fuente-vm1{font-size: 1vw}
+.fuente-vm2{font-size: 2vw}
+.fuente-vm3{font-size: 5vw}
