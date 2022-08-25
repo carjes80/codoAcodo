@@ -1,0 +1,13 @@
+body{
+    font-family: verdana;
+}
+h1{
+    color:blue;
+    background-color: lightblue;
+}
+h2{color:green;}
+.grande-px{font-size:24px}
+.chico-px{font-size:8px}
+
+/*  Medidas Relativas */
+/*
