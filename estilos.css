@@ -1,19 +1,29 @@
 *{
-    background-color: rgb(237, 239, 232);
+
     font-family: verdana;
      text-align: center;
 }
 h1{ 
     text-align: center;
+    
 
 }
 h2{
     padding: 20px;
     background-color: rgb(243, 251, 225);
-    color: rgb(101, 12, 12);
+    color: rgb(78, 21, 153);
     
 }
-#ajustar {width:inherit}
+body{
+    margin: 20px;
+
+        background-image: url(/Resumen/img/fondo.jpg);
+
+}
+#imagen{
+    width:inherit;
+max-width: fit-content;
+}
 
 /* los comntarios van con barra y asterisco y asterisco barra */
 
