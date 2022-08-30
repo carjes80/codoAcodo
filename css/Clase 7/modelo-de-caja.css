@@ -1,0 +1,19 @@
+body{
+    font-family:arial;
+    font-size 20px;
+}
+h1{
+    background-color: lightgreen;
+}
+div{/*Contenedor principal*/
+    background-color: #add8e6;
+    width: 800px;
+    height: 300px;
+    /*Explicaron el max/min-width y max/minmin-height*/
+}
+div p{
+    background-color: violet;
+    border: 2px dotted red;/*El borde que se le coloca a las cajas, si está general aplica a los 4 bordes*/
+    padding: 30px; /*Es un relleno que genera un espacio para cada párrafo*/
+    margin: 20px; /*Es el margen estre la izq y la derecha generalmente*/
+}
