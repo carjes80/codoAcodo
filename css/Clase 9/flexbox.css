@@ -11,7 +11,7 @@
     border: 2px solid blue;
     display: flex;
     flex-direction: row;
-    flex-wrap: rap;
+    flex-wrap: wrap;
 }
 .hijo{
     background-color: navy;
