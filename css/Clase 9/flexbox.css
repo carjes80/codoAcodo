@@ -11,7 +11,7 @@
     border: 2px solid blue;
     display: flex;
 }
-hijo{
+.hijo{
     background-color: navy;
     border: 2px dashed white;
     width: 200px;
@@ -21,6 +21,6 @@ hijo{
     padding: 20px;
     font-size: 40px;
     text-align: center;
-    
+
 
 }
