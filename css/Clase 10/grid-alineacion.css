@@ -1,8 +1,10 @@
 .contenedor {
     background-color: blue;
-    padding: 10%;
+    padding: 10px;
     display: grid;
     grid-template-columns: 200px 200px 200px ;
+    /*alineaciones*/
+    justify-content: center;
 }
 .hijo{
     background-color: lightblue;
