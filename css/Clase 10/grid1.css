@@ -3,13 +3,18 @@
     background-color: lightblue;
     display: grid;
     
+    /* Columnas */
     /*Acá se colocan las columnas con el tamaño que definamos, en este caso definimos 3 columnas de 100px cada una*/
     /*grid-template-columns: 100px 100px 100px;*/
     /* grid-template-columns: 50% 30% 20%; */
     /* grid-template-columns: auto auto auto; En este caso se ajustan al tamaño del ancho y no desbordan al padre */
     /* grid-template-columns: 1fr 1fr 2fr; Las unidades fr son fracciones, acá son 4 fracciones y se define cuanto equivalen cada una */
-    grid-template-columns: repeat(3 , 1fr) repeat(5,auto);
-    
+    /* grid-template-columns: repeat(3 , 1fr) repeat(7,auto); */
+    grid-template-columns: repeat(2,1fr);
+    /* column-gap: 10px;
+    row-gap: 30px; */
+    /* gap: 20px; este abarca los 2 gap, row and column */
+    grid-template-rows: 50px 150px 100px;
 }
 
 .box {

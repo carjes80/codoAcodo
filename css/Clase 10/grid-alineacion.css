@@ -1,0 +1,12 @@
+.contenedor {
+    background-color: blue;
+    padding: 10%;
+    display: grid;
+    grid-template-columns: 200px 200px 200px ;
+}
+.hijo{
+    background-color: lightblue;
+    text-align: center;
+    border: 1px  solid white;
+    padding:10px;
+}
