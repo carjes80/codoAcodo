@@ -1,5 +1,5 @@
 .container{
-    padding: 20%;
+    padding: 20px;
     background-color: lightblue;
     display: grid;
     grid-template-columns: 100px 100px 100px;
