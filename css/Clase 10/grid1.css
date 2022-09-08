@@ -1,10 +1,17 @@
-.container{
+.container {
     padding: 20px;
     background-color: lightblue;
     display: grid;
-    grid-template-columns: 100px 100px 100px;
+    
+    /*Acá se colocan las columnas con el tamaño que definamos, en este caso definimos 3 columnas de 100px cada una*/
+    /*grid-template-columns: 100px 100px 100px;*/
+    /* grid-template-columns: 50% 30% 20%; */
+    /* grid-template-columns: auto auto auto; En este caso se ajustan al tamaño del ancho y no desbordan al padre */
+    grid-template-columns: 1fr 1fr 2fr;
+    
 }
-.box{
+
+.box {
     background-color: blue;
     padding: 10px;
     color: white;
