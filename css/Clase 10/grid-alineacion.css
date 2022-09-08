@@ -4,7 +4,8 @@
     display: grid;
     grid-template-columns: 200px 200px 200px ;
     /*alineaciones*/
-    justify-content: space-between;
+    justify-content: space-between; /*alineación en horizontal*/
+    align-content: space-between; /*alineacion en vertical*/
 }
 .hijo{
     background-color: lightblue;
