@@ -1,0 +1,13 @@
+.container{
+    padding: 20%;
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+.box{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border: 1px dotted white;
+}
