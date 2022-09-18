@@ -45,7 +45,7 @@ nav {
     height: 40px;
     }
 .centrado {
-    display: flexbox;
+
 }
 
 section{
@@ -80,4 +80,6 @@ hr{
     margin-top: 25px;
     border-width: 10px;
 }
+.l1,.l2,.l3,.l4,.l5,.l6,.l7{
 
+}

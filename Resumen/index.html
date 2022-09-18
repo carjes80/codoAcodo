@@ -36,7 +36,7 @@
     <!-- Contenedor de toda la página, excluyendo menú de navegación y footer -->
     <div class="contenido">
         <!-- Inicio del resumen -->
-        <!-- Clase de HTML5 -->
+        <!-- HTML5 -->
         <a name="HTML5"></a>
         <section>
             <header>
@@ -314,66 +314,68 @@
                 <hr>
             </article>
             <!-- Clase 3 -->
+            <a name="clase3"></a>
+            <article>
+                <h3>Clase 3</h3>
+                <h4>Multimedia y Tablas</h4>
+                <img src="/Resumen/img/Clase3.JPG" width="680" alt="">
 
-            <a name="clase3">
-                <article>
-                    <h3>Clase 3</h3>
-            </a>
+                <!-- Multimedia y tablas -->
+                <h4>Multimedia</h4>
+                <fieldset id="ajustar">
+                    <legend>Ejemplo de img e iframe</legend>
+                    <p>&lt;<font color="red">img</font>
+                        <font color="orange">src</font>
+                        =<font color="green">"Aqui va la URL, dirección de carpeta y archivo, etc..."</font>
+                        <font color="orange">height</font>=<font color="green">"numero en pixeles"</font>
+                        <font color="orange">alt</font>=<font color="green">"Este texto alternativo (tambien para
+                            invidentes)"
+                        </font>>
+                        <br><br>
+                        &lt;<font color="red">iframe</font>
+                        <font color="orange">width</font>=<font color="green">"560"</font>
+                        <font color="orange">height</font>=<font color="green">"315"</font>
+                        <font color="orange">src</font>=<font color="green">
+                            "url del video"</font>
+                        >Video de youtube&lt;<font color="red">/iframe</font>>
+                        <br><br>
+                        &lt;<font color="red">link</font>
+                        <font color="orange">rel</font>="<font color="green">icon</font>" <font color="orange">type
+                        </font>="
+                        <font color="green">image/vnd.microsoft.icon</font>" <font color="orange">href</font>=<font
+                            color="green">
+                            "/Resumen/img/favicon-16x16.png"</font>
+                    </p>
 
-            <h4>Multimedia y Tablas</h4>
-            <img src="/Resumen/img/Clase3.JPG" width="680" alt="">
+                </fieldset>
 
-            <!-- Multimedia y tablas -->
-            <h4>Multimedia</h4>
-            <fieldset id="ajustar">
-                <legend>Ejemplo de img e iframe</legend>
-                <p>&lt;<font color="red">img</font>
-                    <font color="orange">src</font>
-                    =<font color="green">"Aqui va la URL, dirección de carpeta y archivo, etc..."</font>
-                    <font color="orange">height</font>=<font color="green">"numero en pixeles"</font>
-                    <font color="orange">alt</font>=<font color="green">"Este texto alternativo (tambien para
-                        invidentes)"
-                    </font>>
-                    <br><br>
-                    &lt;<font color="red">iframe</font>
-                    <font color="orange">width</font>=<font color="green">"560"</font>
-                    <font color="orange">height</font>=<font color="green">"315"</font>
-                    <font color="orange">src</font>=<font color="green">
-                        "url del video"</font>
-                    >Video de youtube&lt;<font color="red">/iframe</font>>
-                    <br><br>
-                    &lt;<font color="red">link</font>
-                    <font color="orange">rel</font>="<font color="green">icon</font>" <font color="orange">type</font>="
-                    <font color="green">image/vnd.microsoft.icon</font>" <font color="orange">href</font>=<font
-                        color="green">
-                        "/Resumen/img/favicon-16x16.png"</font>
+                <p>Muchos de los enlaces embebidos para videos, mapas, audio, apps y otras, salen directamente al
+                    compartir
+                    desde la
+                    página, sin embargo cualquier página o video puede ser compartido con el uso de la etiqueta iframe.
+                    Como
+                    se
+                    muestra en el cuadro anterior.</p>
+
+                <p>Hay algunas páginas que no se muestran, por limitaciones u otras razones que aun no las termino de
+                    ver
+                    todas.
                 </p>
+                <p>Siempre recomiendan crear carpetas para guardar imágenes y recursos que va a presentarse en nuestra
+                    página
+                    web
+                </p>
+                <p>Se puede anidar a los enlaces una imagen</p>
+                <p>El <b>favicon</b> (icono que aparece en la pestaña de la página) es un archivo .ico, el código es el
+                    que
+                    se
+                    ve en
+                    la tabla de ejemplo/p>
 
-            </fieldset>
-
-            <p>Muchos de los enlaces embebidos para videos, mapas, audio, apps y otras, salen directamente al compartir
-                desde la
-                página, sin embargo cualquier página o video puede ser compartido con el uso de la etiqueta iframe. Como
-                se
-                muestra en el cuadro anterior.</p>
-
-            <p>Hay algunas páginas que no se muestran, por limitaciones u otras razones que aun no las termino de ver
-                todas.
-            </p>
-            <p>Siempre recomiendan crear carpetas para guardar imágenes y recursos que va a presentarse en nuestra
-                página
-                web
-            </p>
-            <p>Se puede anidar a los enlaces una imagen</p>
-            <p>El <b>favicon</b> (icono que aparece en la pestaña de la página) es un archivo .ico, el código es el que
-                se
-                ve en
-                la tabla de ejemplo/p>
-
-            <h4>Tablas</h4>
-            <fieldset id="ajustar">
-                <legend>Ejemplo de tablas</legend>
-                <pre>
+                <h4>Tablas</h4>
+                <fieldset id="ajustar">
+                    <legend>Ejemplo de tablas</legend>
+                    <pre>
         &lt;table>
                 &lt;tr>
                     &lt;th>Company</th>
@@ -393,65 +395,64 @@
         &lt;/table>
         </pre>
 
-                <p>...de acuerdo al código anterior, tendremos:</p>
-                <table border="1">
-                    <tr>
-                        <th>Company</th>
-                        <th>Contact</th>
-                        <th>Country</th>
-                    </tr>
-                    <tr>
-                        <td>Alfreds Futterkiste</td>
-                        <td>Maria Anders</td>
-                        <td>Germany</td>
-                    </tr>
-                    <tr>
-                        <td>Centro comercial Moctezuma</td>
-                        <td>Francisco Chang</td>
-                        <td>Mexico</td>
-                    </tr>
-                </table>
-            </fieldset>
-            <p>Las tablas se definen por columnas e items, es una forma antigua de representar las cosas,
-                actualmente se
-                deben
-                usar de otra manera, sin embargo lo que vimos en clase considera lo siguiente:
-            <ul>
-                <li>Las Etiquetas importantes son &lt;table&gt; para definir la tabla como principal, tiene
-                    atributos que
-                    pueden
-                    ayudar a visualizar de mejor manera la información como por ejemplo "border". Tambien tiene
-                    etiquetas
-                    &lt;tr&gt; (table row), &lt;th&gt; (table header) y &lt;td&gt; (table no se que con d pero es
-                    celda)
-                    Para
-                    mas info <a href="https://www.w3schools.com/Html/html_tables.asp" targer="_blank">ver
-                        w3schools</a></li>
-                <li>Las tablas estructuran en la medida que se van creando columnas y celdas</li>
-                <li>Por ello existen atributos como "rowspan" y "colspan" que se usan para combinar las filas y las
-                    celdas,
-                    como
-                    se muestra en el ejercicio hecho en clase y que se muestra abajo</li>
-            </ul>
+                    <p>...de acuerdo al código anterior, tendremos:</p>
+                    <table border="1">
+                        <tr>
+                            <th>Company</th>
+                            <th>Contact</th>
+                            <th>Country</th>
+                        </tr>
+                        <tr>
+                            <td>Alfreds Futterkiste</td>
+                            <td>Maria Anders</td>
+                            <td>Germany</td>
+                        </tr>
+                        <tr>
+                            <td>Centro comercial Moctezuma</td>
+                            <td>Francisco Chang</td>
+                            <td>Mexico</td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <p>Las tablas se definen por columnas e items, es una forma antigua de representar las cosas,
+                    actualmente se
+                    deben
+                    usar de otra manera, sin embargo lo que vimos en clase considera lo siguiente:
+                <ul>
+                    <li>Las Etiquetas importantes son &lt;table&gt; para definir la tabla como principal, tiene
+                        atributos que
+                        pueden
+                        ayudar a visualizar de mejor manera la información como por ejemplo "border". Tambien tiene
+                        etiquetas
+                        &lt;tr&gt; (table row), &lt;th&gt; (table header) y &lt;td&gt; (table no se que con d pero es
+                        celda)
+                        Para
+                        mas info <a href="https://www.w3schools.com/Html/html_tables.asp" targer="_blank">ver
+                            w3schools</a></li>
+                    <li>Las tablas estructuran en la medida que se van creando columnas y celdas</li>
+                    <li>Por ello existen atributos como "rowspan" y "colspan" que se usan para combinar las filas y las
+                        celdas,
+                        como
+                        se muestra en el ejercicio hecho en clase y que se muestra abajo</li>
+                </ul>
 
-            </p>
-            <h4>Clase grabada</h4>
-            <div class="centrado">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/RsGNmnYTNwU"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div <p>Mi código de la clase 3: <a
-                href="https://github.com/carjes80/codoAcodo/blob/master/HTML/Clase%203/clase3.html"
-                target="_blank">github.com/carjes80/codoAcodo</a></p>
-            <div class="centrado">
-                <iframe width="560" height="315" src="/HTML/Clase 3/clase3.html" frameborder="50">
-                </iframe>
-            </div>
-            <hr>
+                </p>
+                <h4>Clase grabada</h4>
+                <div class="centrado">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/RsGNmnYTNwU"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div <p>Mi código de la clase 3: <a
+                    href="https://github.com/carjes80/codoAcodo/blob/master/HTML/Clase%203/clase3.html"
+                    target="_blank">github.com/carjes80/codoAcodo</a></p>
+                <div class="centrado">
+                    <iframe width="560" height="315" src="/HTML/Clase 3/clase3.html" frameborder="50">
+                    </iframe>
+                </div>
+                <hr>
             </article>
             <!-- Clase 4 -->
-
             <a name="clase4"></a>
             <article>
                 <h3>Clase 4</h3>
@@ -477,7 +478,7 @@
                 <hr>
             </article>
         </section>
-        <!-- Clase 5 -->
+        <!-- CSS -->
         <a name="CSS"></a>
         <section>
             <header>
@@ -486,8 +487,9 @@
                 <hr>
                 <h2>Contenido CSS</h2>
                 <ul>
-                    <li><a href="#clase5">Clase 5: Introducción a CSS</a></li>
-                    <li><a href="#clase6">Clase 6: Unidades de medida</a></li>
+                    <li><a href="#clase5">Clase 5: Introducción a CSS (Selectores y Contenedores "Div y Span")</a></li>
+                    <li><a href="#clase6">Clase 6: Unidades de medida, fuentes y
+                            colores</a></li>
                     <li><a href="#clase7">Clase 7: Multimedia y Tablas</a></li>
                     <li> <a href="#clase8">Clase 8: Formularios y subida al
                             servidor</a></li>
@@ -497,41 +499,133 @@
                     <li> <a href="#clase12">Clase 12: Formularios y subida al
                             servidor</a></li>
                 </ul>
+                <hr>
             </header>
-            <hr>
-            <a name="clase5">
+            <!-- Clase 5 -->
+            <a name="clase5"></a>
+            <article>
                 <h3>Clase 5</h3>
-            </a>
-            <h4>Introducción a CSS</h4>
-            <img src="/Resumen/img/Clase5.JPG" width="680" alt="sumario de clase 5">
-            <p>Algo importante para tener en cuenta cuando trabajamos con CSS, es que los estilos que se definen en
-                linea
-                tiene prioridad antes que los internos y a su vez, los internos tienen prioridad ante los estilos
-                externos
-            </p>
-            <p>Una recomendación es que se use siempre estilos externos.</p>
-            <p>La herencia, es importante saberlo.</p>
-            <h1><b>Selectores:</b> Se usa para dar un estilo universal, por ejemplo a todo el archivo HTML.</h1>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-            <h4>Clase grabada</h4>
-            <div class="centrado">
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/hA1eiuNoE-w"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-            <a href="#clase5">Clase 5: Introducción a CSS</a>
-            <a href="#clase6">Clase 6: Unidades de medida, fuentes y
-                colores</a>
-            <p>Mi código de la clase 5: <a href="https://github.com/carjes80/codoAcodo/tree/master/css/Intro%20a%20CSS"
-                    target="_blank">github.com/carjes80/codoAcodo</a></p>
-            <hr>
+                <h4>Introducción a CSS</h4>
+                <img src="/Resumen/img/Clase5.JPG" width="680" alt="sumario de clase 5">
+                <p>Algo importante para tener en cuenta cuando trabajamos con CSS, es que los estilos que se definen en
+                    linea tienen prioridad antes que los internos y a su vez, los internos tienen prioridad ante los
+                    estilos
+                    externos
+                </p>
+                <p>Una recomendación es que se use siempre estilos externos y que se use un archivo CSS con las cosas
+                    generales, evitar duplicar archivos CSS que tengan el mismo contenido.</p>
+                <p>La herencia, es importante saberlo.</p>
+                <h4><b>Selectores:</b></h4>
+
+                <ul>
+                    <li><b>Selector universal</b> son los que afectan a toda la página.</li>
+                    <li><b>Selector de etiquetas</b> son los que se usan para etiquetas, tipo "h1" "section" "p".</li>
+                    <li><b>Selector de clases</b> se inician en el css con un punto "." y en el archivo html va dentro
+                        de una etiqueta con la palabra "<font color="orange">class="<font color="green">xxxx"</font>"
+                        </font>
+                    </li>
+                    <li><b>Selector de identificador (id)</b> la idea de estos selectores es que se apliquen a ciertos
+                        elementos en particular</li>
+                </ul>
+                <p>El orden en el que se coloquen los selectores influye. En el CSS el último que aparezca reemplazará a
+                    los que están arriba. Por eso es importante el orden del CSS.</p>
+
+                <p>Mi código de la clase 5: <a
+                        href="https://github.com/carjes80/codoAcodo/tree/master/css/Intro%20a%20CSS"
+                        target="_blank">github.com/carjes80/codoAcodo</a></p>
+
+                <div class="centrado">
+                    <iframe class="centrado" width="560" height="315" src="/CSS/Clase 5/index.html" frameborder="50">Web
+                        de
+                        la Clase 4</iframe>
+                </div>
+                <h4>Elementos en línea y elementos en bloques - DIV y SPAN (Contenedores de Información)</h4>
+                <p>Los elementos en líne y en bloque se definen para contener la información y organizar en la pantalla
+                    cómo se van a gestionar</p>
+                <p>El elemento div es un contenedor que se comporta como bloque, por lo que abarca todo el año</p>
+                <div
+                    style="border-color:red;border-style: dashed;color:rgb(255, 255, 0); background-color:black; padding:20px">
+                    Por ejemplo, para esta línea se definió un div con un padding de 20px</div>
+                <div
+                    style="border-color:red;border-style: dashed;color:black; background-color:rgb(255, 255, 0);padding:20px">
+                    Por ejemplo, para esta línea se definió un div con un padding de 20px"</div>
+                <span
+                    style="border-color:red;border-style: dashed;color:rgb(255, 255, 0); background-color:black;padding:20px">Por
+                    ejemplo, para esta línea se definió un span </span>
+                <span
+                    style="border-color:red;border-style: dashed;color:black; background-color:rgb(255, 255, 0);padding:20px">Por
+                    ejemplo, para esta línea se definió un span </span>
+
+                <br><br><br>
+                <p>Tambien existe una propiedad que permite que los div y los span se comporten como el otro. La
+                    ciencia de esto es que el SPAN siempre será del tamaño del contenido y el DIV será del tamaño de la
+                    pantalla.
+                </p>
+                <ul>
+                    <li>Cuando se usan las propiedades para el span "display: block" podemos hacer que los span se
+                        comporten como bloques</li>
+                    <span
+                        style="display:block;border-color:red;border-style: dashed;color:rgb(255, 255, 0); background-color:black;">SPAN
+                        con un "display:block", abarca toda la pantalla como si fuera un div</span>
+                    <li>Cuando se usan las propiedades para el div "display:inline-block" se convierten los div en una
+                        clase de span, porque agrupan uno al lado del otro. Hay etiquetas que tienen propiamente su
+                        definición de en línea o en bloque como por ejemplo las listas "li" que se muestra a
+                        continuación.</li>
+                    <ul>
+                        <li style="border-color:red;border-style:solid;color:rgb(255, 255, 0); background-color:black">
+                            Parrafo 1 sin "display:inline-block"</li>
+                        <li style="border-color:red;border-style: solid;color:black; background-color:rgb(255, 255, 0)">
+                            Parrafo 2 sin "display:inline-block"</li>
+                        <li style="border-color:red;border-style: solid;color:rgb(255, 255, 0); background-color:black">
+                            Parrafo 3 sin "display:inline-block"</li>
+                        <li
+                            style="display:inline-block;border-color:red;border-style: solid;color:black; background-color:rgb(255, 255, 0)">
+                            <p>parafo 4 con "display:inline-block" (p)</p>
+                        </li>
+                        <li
+                            style="display:inline-block;border-color:red;border-style: solid;color:rgb(255, 255, 0); background-color:black">
+                            <p>parafo 5 con "display:inline-block" (p)</p>
+                        </li>
+                        <li
+                            style="display:inline-block;border-color:red;border-style: solid;color:black; background-color:rgb(255, 255, 0)">
+                            <p>parafo 6 con "display:inline-block"(p)</p>
+                        </li>
+                    </ul>
+
+                </ul>
+                <h4>Atributos globales</h4>
+                <p>Se pueden usar en todos los elementos HTML</p>
+                <ul>
+                    <li><b>style="estilo CSS"</b> se usa para darle un estilo como si estuviera dentro del archivo CSS
+                        pero directamente en el archivo HTML</li>
+                    <li><b>class="nombre"</b> es el nombre con el que se definió una clase.</li>
+                    <li><b>id="nombre"</b> define el nombre del identificador que se usó</li>
+                    <li><b>title="nombre"</b>información adicional</li>
+                    <li><b>hidden:</b> evita que el elemento y todos los descendientes se muestren, puede usarse para
+                        apagar algunas cosas. Me imagino que se usará más con JavaScript</li>
+                </ul>
+                <h4>Especificidad</h4>
+                <p>Es la prioridad que tienen los estilos, hay algunos que prevalecen antes que otros y se representan
+                    en el IDE cuando se pone el cursor encima y te muestra el nivel o el peso del selector.</p>
+                <p>La jerarquía de la especificidada es la siguiente: </p>
+                <ul>
+                    <li>(1,0,0,0,0) !important: se coloca "<font color="red">!important</font>" despues de cada estilo y se usa con cualquier selector.</li>
+                    <li>(0,1,0,0,0) inline: se coloca dentro de la etiqueta "<font color="red">style="color:red</font>" y toma el estilo toda la etiqueta.</li>
+                    <li>(0,0,1,0,0) ID: se coloca con la etiqueta "<font color="red">#nombre {color:red}</font>"</li>
+                    <li>(0,0,0,1,0) Clases, atributos y pseudoclases: se coloca con  "<font color="red">.nombre{color:red}</font>"</li>
+                    <li>(0,0,0,0,1) Etiquetas y pseudoelementos: se coloca con la etiqueta "<font color="red">nombre-de-etiqueta {color:red}</font>"</li>
+                </ul>
+                <h4>Clase grabada</h4>
+                <div class="centrado">
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QNjipmsBM3s"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <hr>
+            </article>
             <!-- Clase 6 -->
             <a name="clase6">
                 <h3>Clase 6</h3>
@@ -618,7 +712,6 @@
                 <br><br><br><br><br><br><br><br><br><br>
             </ARTicle>
         </section>
-
 
         <!-- MySQL -->
         <a name="MYSQL"></a>
