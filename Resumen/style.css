@@ -76,4 +76,8 @@ h1{
         max-width: 95%;
     }
 }
+hr{
+    margin-top: 25px;
+    border-width: 10px;
+}
 
