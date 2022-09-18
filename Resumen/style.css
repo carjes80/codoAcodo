@@ -1,65 +1,79 @@
-* {
-    background-color: rgb(237, 239, 232);
-    font-family: verdana;
+body {
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    background-color: rgb(248, 248, 248);
+    font-family: 'Raleway', sans-serif;
 }
 
-#contenido { margin: 15px; }
-
-#ajustar {width:inherit}
-img {
-    height: 100%;
+nav {
+    background-color: rgb(255, 255, 255);
     width: 100%;
-    object-fit: contain;
-    max-height: 420px;
-   }
-
-.fuente-vm2 {
-    font-size: 2vw;
+    position: fixed;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+}
+.contenido{
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+    padding: 0;
+}
+.menu li {
+    display: inline-block;
 }
 
+.menu {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu a{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(255, 255, 255);
+}
+
+.menu a:hover {
+    background-color: rgba(245, 202, 0, 255);
+}
 .img-vm1 {
-    width: 35px;
+    width: 40px;
+    height: 40px;
+    }
+.centrado {
+    display: flexbox;
 }
-h3{text-align: center;}
-h4{text-align: center;}
 
-h1 {
+section{
+    margin-top: 70px;
+}
+article{
+    margin-top:70px
+}
+a{
+    text-decoration: none;
+    color:rgb(48, 44, 44);
+    font-weight: 600;
+}
+a:hover{
 
+    color:rgb(100, 82, 16);
+    font-weight: 600;
+}
+h1,h2,h3,h4{color:rgb(135, 15, 15)}
+h1{
+    font-weight: 900;
     text-align: center;
-    color: rgb(101, 12, 12);
-
+}
+@media screen and (max-width:700px) {
+    .contenido{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        max-width: 95%;
+    }
 }
 
-
-iframe {
-
-    background-color: white;
-    object-fit: contain;
-    max-height:100%;
-    max-width: 100%;
-}
-.centrado{
-    text-align: center;
-  }
-
-#activar1:checked~.desplegable1 {
-    text-decoration: line-through;
-}
-
-#activar2:checked~.desplegable2 {
-    text-decoration: line-through;
-}
-
-#activar3:checked~.desplegable3 {
-    text-decoration: line-through;
-}
-
-#activar4:checked~.desplegable4 {
-    text-decoration: line-through;
-}
-#activar5:checked~.desplegable5 {
-    text-decoration: line-through;
-}
-#activar6:checked~.desplegable6 {
-    text-decoration: line-through;
-}
