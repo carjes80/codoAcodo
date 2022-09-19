@@ -108,21 +108,29 @@ hr {
     color: yellow;
     font-size: 1.5vw;
     background-image: url(../Resumen/img/fondoejm.jpg);
-
 }
-
-.fa-brands,
-.fa-linkedin,
-.fa-github-square {
-    font-size: 32px
+.fa-brands,.fa-linkedin,.fa-github,.fa-youtube,.fa-google-drive {
+    font-size: 32px;
+    color: black;
 }
-
-.fa-linkedin:hover,
-.fa-github-square:hover {
+.fa-linkedin:hover,.fa-github:hover,.fa-youtube:hover,.fa-google-drive:hover {
     font-size: 48px;
-    color: blue;
+    color: rgb(5, 5, 109);
 }
-
 .rrss {
+    text-align: center;
+}
+.padre{
+    background-color: lightpink;
+    
+}
+.caja{
+    background-color: lightblue;
+    padding:50px;
+    border: 5px black dotted;
+    margin:20px 20px 20px 20px;
+    overflow:visible;
+}
+div.caja p{/*Aqui estoy especificando cual p es el que quiero modificar*/
     text-align: center;
 }
