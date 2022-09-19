@@ -15,7 +15,7 @@ h2{color:green;}
 .fuente-em2{font-size: 1.875em;}/*30*/
 .fuente-em3{font-size: 0.875em;}/*14*/
 
-/*  Medidas Relativas (em) */
+/*  Medidas Relativas (Rem) */
 .fuente-rem1{font-size: 2.5rem;} /*2.5 veces el tamaño base*/
 .fuente-rem2{font-size: 2rem;}/* */
 .fuente-rem3{font-size: 0.75rem;}/* */
