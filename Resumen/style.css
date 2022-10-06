@@ -12,6 +12,13 @@ nav {
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: bold;
 }
+.navegacion{
+    display:flex;
+    justify-content: space-around;
+}
+.logo img{
+    width:6rem;
+}
 
 .contenido {
     max-width: 80%;
@@ -30,7 +37,14 @@ nav {
     margin: 0px;
     padding: 0px;
 }
+.menu2 {
+    display: flex;
 
+}
+.menu2 button{
+    background-color: white;
+    border:none;
+}
 img {
     display: inline-block;
 }
@@ -42,6 +56,14 @@ img {
     display: block;
     background-color: rgb(255, 255, 255);
 }
+.fa-solid{
+    font-size: 28px;
+    color: black;
+    padding:0.7rem;
+}
+.fa-solid:hover{
+    background-color: rgba(245, 202, 0, 255);
+}
 
 .menu a:hover {
     background-color: rgba(245, 202, 0, 255);
@@ -52,8 +74,8 @@ img {
     height: 40px;
 }
 
-.centrado {
-    
+.youtube {
+    display: block;
 }
 
 section {
@@ -135,4 +157,131 @@ hr {
 }
 div.caja p{/*Aqui estoy especificando cual p es el que quiero modificar*/
     text-align: center;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid gray;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 500px;
+    max-width: 80%;
+    color: black;
+}
+
+.modal.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.modal-header .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 26px;
+    font-weight: bold;
+    /* color: var(--color-fuente-pincipal); */
+}
+.close-button{
+    display:block;
+    justify-content: right;
+}
+
+.modal-body {
+    padding: 10px 15px;
+}
+
+#overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+}
+
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal img {
+    max-width: 90vw;
+    height: auto;
+}
+/* acá está lo del formulario que había creado */
+
+.contenedor-formulario-contacto {
+    max-width: 40.75rem;
+    color: black;
+    margin: 0 1rem;
+    padding: 0.938rem;
+    border-radius: 5px;
+    box-shadow: gray;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;;
+}
+
+.contenedor-formulario-contacto label {
+    line-height: 2.7em;
+    font-weight: bolder;
+    color: black;
+    font-family: 'Raleway', sans-serif;;
+}
+
+.contenedor-formulario-contacto .input-field {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 2px outset rgb(81, 81, 81);
+    font-size: 1rem
+    outline: none;
+    background-color: white;
+    color: gray;
+    font-family: sans-serif;
+}
+
+.input-field::placeholder {
+    padding: 0.5rem;
+    color: var(--color-fuente-form);
+    font-family: var(--font-family1);
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: wheat;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.submit-btn:hover {
+    background-color: rgba(245, 202, 0, 255);
+    border: 2px solid gray;
+    cursor: pointer;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -8,14 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Resumen/style.css">
     <script src="https://kit.fontawesome.com/f9f4d18e61.js" crossorigin="anonymous"></script>
-    <script src="/Resumen/js/script.js"></script>
     <title>Resumen de HTML y CSS</title>
-    
+
 </head>
 
 <body>
     <!-- Menú de navegación -->
-    <nav>
+    <nav class="navegacion">
+        <div class="logo">
+            <img src="/Resumen/img/codoacodo.png.png" alt="codoacodo">
+        </div>
         <ul class="menu">
 
             <li><a href="#HTML5"><img
@@ -36,6 +38,14 @@
                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
                         width="40px" height"40px"alt=""></a></li>
         </ul>
+        <div class="menu2">
+            <button data-modal-target="#micuenta"><a><i class="fa-solid fa-user"></i></a></button>
+
+        </div>
+        <div class="menu2">
+            <button data-modal-target="#salir"><a><i class="fa-solid fa-right-from-bracket"></i></a></button>
+
+        </div>
     </nav>
     <!-- Contenedor de toda la página, excluyendo menú de navegación y footer -->
     <div class="contenido">
@@ -137,8 +147,8 @@
                         es un, puede estar en una linea o varias lineas--></font>
                 </ul>
                 </p>
-                <h4 onload="comision()">Clase grabada y mi ejercicio de la clase </h4>                
-                <div class="centrado"><iframe width="560" height="315" src="https://www.youtube.com/embed/EQg2NYQ5usg"
+                <h4>Clase grabada y mi ejercicio de la clase </h4>
+                <div class="youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/EQg2NYQ5usg"
                         title="Clase 1 - HTML#Etiquetas_HTML_b%C3%A1sicas" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
@@ -149,10 +159,10 @@
                 <p class="centrado">Mi código de la clase 1: <a
                         href="https://github.com/carjes80/codoAcodo/blob/master/HTML/Clase%201/index.html"
                         target="_blank">github.com/carjes80/codoAcodo</a></p>
-                <div class="centrado">
+                <!-- <div class="centrado">
                     <iframe width="560" height="315" src="/HTML/Clase 1/index.html" frameborder="50">Web de
                         la Clase 1</iframe>
-                </div>
+                </div> -->
                 <hr>
 
 
@@ -303,7 +313,7 @@
                     otros</p>
 
                 <h4>Clase grabada</h4>
-                <div class="centrado"><iframe style="display:block" width="560" height="315"
+                <div class="youtube"><iframe style="display:block" width="560" height="315"
                         src="https://www.youtube.com/embed/T3DHNdZ4Io8"
                         title="Clase 2 - HTML#Etiquetas_HTML_b%C3%A1sicas" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -314,10 +324,10 @@
                 <p>Mi código de la clase 2: <a
                         href="https://github.com/carjes80/codoAcodo/blob/master/HTML/Clase%202/clase2.html"
                         target="_blank">github.com/carjes80/codoAcodo</a></p>
-                <div class="centrado"><iframe width="560" height="315" src="/HTML/Clase 2/clase2.html"
+                <!-- <div class="centrado"><iframe width="560" height="315" src="/HTML/Clase 2/clase2.html"
                         frameborder="50">Web
                         de
-                        la Clase 2</iframe></div>
+                        la Clase 2</iframe></div> -->
                 <hr>
             </article>
             <!-- Clase 3 -->
@@ -445,7 +455,7 @@
 
                 </p>
                 <h4>Clase grabada</h4>
-                <div class="centrado">
+                <div class="youtube">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/RsGNmnYTNwU"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -454,8 +464,8 @@
                     href="https://github.com/carjes80/codoAcodo/blob/master/HTML/Clase%203/clase3.html"
                     target="_blank">github.com/carjes80/codoAcodo</a></p>
                 <div class="centrado">
-                    <iframe width="560" height="315" src="/HTML/Clase 3/clase3.html" frameborder="50">
-                    </iframe>
+                    <!-- <iframe width="560" height="315" src="/HTML/Clase 3/clase3.html" frameborder="50">
+                    </iframe> -->
                 </div>
                 <hr>
             </article>
@@ -467,7 +477,7 @@
                 <img src="/Resumen/img/Clase4.JPG" width="85%" alt="sumario de clase 4">
                 <p>Aqui va el resumen.... Pendiente...</p>
                 <h4>Clase grabada</h4>
-                <div class="centrado">
+                <div class="youtube">
                     <<iframe width="560" height="315" src="https://www.youtube.com/embed/VKI6fnb7yzQ"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -478,9 +488,9 @@
                         href="https://github.com/carjes80/codoAcodo/blob/master/HTML/Clase%204/index.html"
                         target="_blank">github.com/carjes80/codoAcodo</a></p>
                 <div class="centrado">
-                    <iframe class="centrado" width="560" height="315" src="/HTML/Clase 4/index.html"
+                    <!-- <iframe class="centrado" width="560" height="315" src="/HTML/Clase 4/index.html"
                         frameborder="50">Web de
-                        la Clase 4</iframe>
+                        la Clase 4</iframe> -->
                 </div>
                 <hr>
             </article>
@@ -538,11 +548,11 @@
                         href="https://github.com/carjes80/codoAcodo/tree/master/css/Intro%20a%20CSS"
                         target="_blank">github.com/carjes80/codoAcodo</a></p>
 
-                <div class="centrado">
+                <!-- <div class="centrado">
                     <iframe class="centrado" width="560" height="315" src="/CSS/Clase 5/index.html" frameborder="50">Web
                         de
                         la Clase 4</iframe>
-                </div>
+                </div> -->
                 <h4>Elementos en línea y elementos en bloques - DIV y SPAN (Contenedores de Información)</h4>
                 <p>Los elementos en líne y en bloque se definen para contener la información y organizar en la pantalla
                     cómo se van a gestionar</p>
@@ -624,7 +634,7 @@
                             nombre-de-etiqueta {color:red}</font>"</li>
                 </ul>
                 <h4>Clase grabada</h4>
-                <div class="centrado">
+                <div class="youtube">
 
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/QNjipmsBM3s"
                         title="YouTube video player" frameborder="0"
@@ -667,10 +677,10 @@
                 <p>Mi código de la clase 6: <a
                         href="https://github.com/carjes80/codoAcodo/tree/master/css/Intro%20a%20CSS"
                         target="_blank">github.com/carjes80/codoAcodo</a></p>
-                <div class="centrado"><iframe width="560" height="315" src="/CSS/Clase 6/Clase6.html"
+                <!-- <div class="centrado"><iframe width="560" height="315" src="/CSS/Clase 6/Clase6.html"
                         frameborder="50">Web
                         de
-                        la Clase 6</iframe></div>
+                        la Clase 6</iframe></div> -->
                 <h4>Colores</h4>
                 <p>Se puede representar los colores en RGB (RR,GG,BB) o hexadecimal #xxxxxx. Por nombre tambien. Hay un
                     valor que es el alfa.</p>
@@ -706,7 +716,7 @@
 
 
                 <br><br>
-                <div class="centrado">
+                <div class="youtube">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/-34Kvuw39vg"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -752,10 +762,12 @@
                 <h4>Posicionamiento y visualización</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis repudiandae impedit at
                     voluptate ducimus, architecto maiores voluptates aperiam nobis similique?</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/JvBEeUpEyUg"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                <div class="youtube">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/JvBEeUpEyUg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
                 <p>Información extra de posicionamiento acá <a href="https://youtu.be/3R9XiKesvnI"><i
                             class="fa-brands fa-youtube"></i> Video de posicionamiento</a></p>
                 <hr>
@@ -768,10 +780,12 @@
                 <img src="/Resumen/img/Clase8.JPG" width="85%" alt="sumario de clase 8">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis repudiandae impedit at
                     voluptate ducimus, architecto maiores voluptates aperiam nobis similique?</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/XbrOVchD7Ew"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                <div class="youtube">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/XbrOVchD7Ew"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
                 <hr>
             </article>
             <!-- Clase 9 -->
@@ -784,10 +798,12 @@
                     voluptate ducimus, architecto maiores voluptates aperiam nobis similique?
                     <a href="/css/Clase 9/index.html">Abrir clase 9</a>
                 </p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/HNXrNu2CxPY"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                <div class="youtube">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/HNXrNu2CxPY"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
                 <hr>
             </article>
             <!-- Clase 10 -->
@@ -801,11 +817,13 @@
                 <br>
                 <a href="/css/Clase 10/grid-alineacion.html">Abrir la clase 10.2</a>
                 <br>
+                <div class="youtube">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/TN8KLsOQ908"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
-                <hr>
+                </div>
+                    <hr>
             </article>
         </section>
         <!-- BOOTSTRAP -->
@@ -830,10 +848,11 @@
                 <img src="/Resumen/img/Clase11.JPG" width="85%" alt="sumario de clase 11">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id doloribus earum saepe enim et
                     cumque ipsa aliquam pariatur quod vitae!</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/3WqUsFZDx08"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                <div class="youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/3WqUsFZDx08"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
                 <hr>
 
 
@@ -845,10 +864,11 @@
                 <img src="/Resumen/img/Clase12.JPG" width="85%" alt="sumario de clase 12">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id doloribus earum saepe enim et
                     cumque ipsa aliquam pariatur quod vitae!</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/LU8abViAv_M"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                <div class="youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/LU8abViAv_M"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
                 <hr>
             </article>
         </section>
@@ -952,24 +972,87 @@
             </article>
         </section> -->
     </div>
-
-
-</body>
-<footer>
-    <br><br>
-    <hr>
-    <div class="rrss">
-        <a href="https://www.linkedin.com/in/salcedocarlos/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://github.com/carjes80" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <a href="https://drive.google.com/drive/folders/1qU9XyPlpxdzmyYMbf9fH8Kdd7RD3vx4x" target="_blank"><i
-                class="fa-brands fa-google-drive"></i></a>
-        <a href="https://www.youtube.com/watch?v=X-fnTbMRSw8&list=PLcVi00zZjeQNt94rcF3VKcm5a-6JwqfdP" target="_blank"><i
-                class="fa-brands fa-youtube"></i></a>
+    <div class="modal" id="micuenta">
+        <div class="modal-header">
+            <div class="title">Ingresar a Mi Cuenta</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div class="contenedor-formulario-contacto">
+                <div class="formulario-contacto">
+                    <div class="control-formulario">
+                        <label for="comision">Número de Comisión</label>
+                        <input type="text" id="comision" name="comision-nro" placeholder="Ingresa el nro de comisión"
+                            class="input-field" required />
+                    </div>
+                    <div class="control-formulario">
+                        <label for="facilitador">Nombre de Facilitador</label>
+                        <input type="text" id="facilitador" name="facilitador-nombre"
+                            placeholder="Ingrese el facilitador" class="input-field" required />
+                    </div>
+                    <br>
+                    <button class="submit-btn" type="button" data-modal-target="#ingresado" onclick="getValueInput()">
+                        Ingresar
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
-    <hr>
+    <div class="modal" id="ingresedatos">
+        <div class="modal-header">
+            <div class="title">Por favor ingrese los datos correctamente</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+    </div>
+    <div class="modal" id="ingresado_ok">
+        <div class="modal-header">
+            <div class="title">Bienvenido</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+    </div>
+    <div class="modal" id="salir">
+        <div class="modal-header">
+            <div class="title">Salir</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div class="contenedor-formulario-contacto">
+                <div class="formulario-contacto">
+                    <p>Confirmar la salida</p>
+                    <button class="submit-btn" type="button" data-modal-target="#salido" onclick="salirLogin()">
+                        Salir
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="salido">
+        <div class="modal-header">
+            <div class="title">Hasta luego</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+    </div>
+    <div id="overlay"></div>
+    <script src="/Resumen/js/script.js"></script>
+
+    <footer>
+        <br><br>
+        <hr>
+        <div class="rrss">
+            <a href="https://www.linkedin.com/in/salcedocarlos/" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/carjes80" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://drive.google.com/drive/folders/1qU9XyPlpxdzmyYMbf9fH8Kdd7RD3vx4x" target="_blank"><i
+                    class="fa-brands fa-google-drive"></i></a>
+            <a href="https://www.youtube.com/watch?v=X-fnTbMRSw8&list=PLcVi00zZjeQNt94rcF3VKcm5a-6JwqfdP"
+                target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <hr>
 
 
-</footer>
+    </footer>
+</body>
+
 
 
 </html>
