@@ -26,7 +26,7 @@ const getValueInput = () => {
     // console.log(typeof micuenta)
     let inputValue = document.getElementById("comision").value;
     let inputValue2 = document.getElementById("facilitador").value;
-    if (inputValue != "22516" || inputValue2 != "Juan") {
+    if (inputValue != "22516" && inputValue != "darien" || inputValue != "darien" && inputValue2 != "Juan") {
         comision = false;
         const modal = document.querySelector("#ingresedatos");
         openModal(modal);
